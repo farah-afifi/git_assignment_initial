@@ -1,6 +1,5 @@
 public class SummationSeries implements ISubscriber
 {
-
     @Override
     public void notifySubscriber(String input) {
         int end = Integer.parseInt(input);
